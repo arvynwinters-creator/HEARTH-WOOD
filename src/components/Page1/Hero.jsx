@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // Make sure this path points perfectly to your Card component
-import Card from '../page2/card';
+import Card from '../Page2/card.jsx';
 
 const HeroSection = ({ onCollectionClick, onAboutClick }) => {
   const [count, setCount] = useState(0);
