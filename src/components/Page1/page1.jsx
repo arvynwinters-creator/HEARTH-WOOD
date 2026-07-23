@@ -1,5 +1,5 @@
 import Navbar from '../navbar' // <-- Points directly to components/navbar.jsx
-import HeroSection from './Hero'
+import HeroSection from './Hero.jsx';
 
 
 const Page1 = ({ onNavigateToHome, onNavigateToCollection, onNavigateToLogin, onNavigateToReviews, onNavigateToMaterials, onNavigateToAbout }) => {
